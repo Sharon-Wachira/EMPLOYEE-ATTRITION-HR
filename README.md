@@ -1,7 +1,5 @@
 # HR Attrition Tableau Project
 
-# HR Attrition Tableau Project
-
 ## 👥 Group Project Members
 
 1. **SHARON NYAWIRA WACHIRA** – 24072373  
