@@ -1,42 +1,77 @@
 # HR Attrition Tableau Project
 
-##  Project Title: **HR ATTRITION ANALYSIS**
+# HR Attrition Tableau Project
+
+## 👥 Group Project Members
+
+1. **SHARON NYAWIRA WACHIRA** – 24072373  
+2. **LI RUNE** – 21069182  
+3. **CHONG KUN WAH** – 18114322 
+4. **HARIMANJATO FANAJA RAMBONIMANANA** – 24036014 
 
 ---
 
-### 📁 Our Dataset
+## 📌 Project Title: **HR ATTRITION ANALYSIS**
 
-- **Name**: HR Attrition Dataset  
+---
+
+### 📁 Dataset Overview
+
+- **Dataset Name**: IBM HR Analytics Employee Attrition & Performance  
 - **Source**: [Kaggle – IBM HR Analytics](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)  
 - **Provider**: IBM Watson Analytics  
-- **Note**: This dataset was simulated for predictive analytics case studies. It represents realistic HR structures but does **not** contain any real personal data.
+- **Note**: This dataset simulates realistic HR structures and relationships, but **does not contain any real personal data**.
 
 ---
 
-### Dataset Dimensions
+### 📐 Dataset Dimensions
 
 - **Observations (rows)**: 1,470  
 - **Variables (columns)**: 39  
 
 ---
 
-### 🧾 Sample Data Dictionary – *10 Key Variables*
+### 🧾 Full Data Dictionary – All 39 Variables
 
 | Variable Name              | Description                                                                 |
 |----------------------------|-----------------------------------------------------------------------------|
-| `Attrition`                | Indicates whether the employee has left the company (Yes/No)               |
-| `Job Role`                 | The specific job title or function the employee performs                   |
-| `Age`                      | The age of the employee or grouped age bands (e.g., 24–33)                 |
-| `Gender`                   | The gender of the employee (Male or Female)                                |
-| `Marital Status`           | Employee’s marital status (e.g., Single, Married, Divorced)                |
-| `Monthly Income`           | Monthly salary earned by the employee                                      |
-| `Business Travel`          | Frequency of business travel required for the role                         |
-| `Total Working Years`      | Total number of years of professional experience                           |
-| `Number of Companies Worked`| The number of companies the employee has worked for                      |
-| `Years at Company`         | How long the employee has been with the current company                    |
-
-🔗 **Full data dictionary available on** [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+| `Age`                      | Age of the employee                                                         |
+| `Attrition`                | Whether the employee left the company (Yes/No)                              |
+| `BusinessTravel`           | Frequency of business travel (Non-Travel, Travel_Rarely, Travel_Frequently) |
+| `DailyRate`                | Daily rate of pay                                                           |
+| `Department`               | Department name (e.g., Sales, R&D, HR)                                      |
+| `DistanceFromHome`         | Distance from home to workplace (in km/miles)                              |
+| `Education`                | Education level (1–5, ascending scale)                                      |
+| `EducationField`           | Field of study (e.g., Life Sciences, Marketing)                             |
+| `EmployeeCount`            | Number of employees (constant = 1; not analytically useful)                 |
+| `EmployeeNumber`           | Unique employee identifier                                                  |
+| `EnvironmentSatisfaction`  | Satisfaction with workplace environment (1–4)                               |
+| `Gender`                   | Gender of the employee (Male/Female)                                        |
+| `HourlyRate`               | Hourly pay rate                                                             |
+| `JobInvolvement`           | Level of job involvement (1–4)                                              |
+| `JobLevel`                 | Job level (1–5, ascending seniority)                                        |
+| `JobRole`                  | Job title/role (e.g., Sales Executive, Research Scientist)                  |
+| `JobSatisfaction`          | Satisfaction with job (1–4)                                                 |
+| `MaritalStatus`            | Marital status (Single, Married, Divorced)                                  |
+| `MonthlyIncome`            | Monthly salary of the employee                                              |
+| `MonthlyRate`              | Monthly pay rate                                                            |
+| `NumCompaniesWorked`       | Number of prior companies worked for                                        |
+| `Over18`                   | Whether employee is over 18 (constant = 'Y'; not analytically useful)       |
+| `OverTime`                 | Whether the employee works overtime (Yes/No)                                |
+| `PercentSalaryHike`        | Percent increase in salary                                                  |
+| `PerformanceRating`        | Performance rating (1–4; mostly 3 or 4)                                     |
+| `RelationshipSatisfaction` | Satisfaction with relationships (1–4)                                       |
+| `StandardHours`            | Standard working hours (constant = 80; not analytically useful)             |
+| `StockOptionLevel`         | Level of stock options (0–3)                                                |
+| `TotalWorkingYears`        | Total number of years of experience                                         |
+| `TrainingTimesLastYear`    | Number of trainings attended last year                                      |
+| `WorkLifeBalance`          | Rating of work-life balance (1–4)                                           |
+| `YearsAtCompany`           | Years spent at the current company                                          |
+| `YearsInCurrentRole`       | Years in current job role                                                   |
+| `YearsSinceLastPromotion`  | Years since last promotion                                                  |
+| `YearsWithCurrManager`     | Years with current manager                                                  |
 
 ---
 
-This file includes the key features relevant for the analysis conducted in this Tableau project. All visualizations and analysis were based on these and additional fields from the full dataset.
+### 📂 Folder Structure
+
